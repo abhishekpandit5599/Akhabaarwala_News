@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Akhabaarwala_News/static/css/main.368d35ed.css",
+    "main.js": "/Akhabaarwala_News/static/js/main.8d906170.js",
+    "static/js/787.66a4299e.chunk.js": "/Akhabaarwala_News/static/js/787.66a4299e.chunk.js",
+    "static/media/news-vector1.jpg": "/Akhabaarwala_News/static/media/news-vector1.bf3dafce3fbd8a27a334.jpg",
+    "static/media/favicon.png": "/Akhabaarwala_News/static/media/favicon.f136be1fd5ddd8a77339.png",
+    "static/media/loading.gif": "/Akhabaarwala_News/static/media/loading.f4d71b7e2329eafbaea7.gif",
+    "index.html": "/Akhabaarwala_News/index.html",
+    "main.368d35ed.css.map": "/Akhabaarwala_News/static/css/main.368d35ed.css.map",
+    "main.8d906170.js.map": "/Akhabaarwala_News/static/js/main.8d906170.js.map",
+    "787.66a4299e.chunk.js.map": "/Akhabaarwala_News/static/js/787.66a4299e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.368d35ed.css",
+    "static/js/main.8d906170.js"
+  ]
+}
