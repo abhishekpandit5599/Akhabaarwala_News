@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 85vw 15vw;
+}
+.placeicon{
+    font-family: fontawesome;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        grid-template-columns: 100vw;
+    }
+  }

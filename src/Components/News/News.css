@@ -1,0 +1,30 @@
+.all-news-container{
+    margin: 20px auto;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+}
+.btn-next-pre button{
+    padding: 5px 8px;
+    margin: 20px 50px;
+}
+.btn-next-pre{
+    display: flex;
+    justify-content:  space-between;
+}
+.headline{
+    text-align: center;
+}
+
+.fullNews-container{
+    margin: 20px auto;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .headline{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,11 @@
+.footer-div{
+    text-align: center;
+    background-color: rgb(255 77 0 / 1);
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-div{
+        font-size: 14px;
+    }
+}

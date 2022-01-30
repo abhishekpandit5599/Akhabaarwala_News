@@ -1,0 +1,46 @@
+.side-bar{
+    margin: 20px 0px;
+    height: 80vh;
+    margin: 50px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    position: sticky;
+    right: 0;
+    top: 15vh;
+    z-index: 1;
+}
+.filter-news{
+    margin: 20px auto;
+    width: 80%;
+}
+.filter-news ul{
+    list-style: none;
+}
+.filter-news ul li{ 
+    margin: 5px;
+}
+.country{
+    margin: 20px auto;
+}
+.category ul,.country ul,.language ul{
+    margin: 10px 20px;
+}
+.filter-news a{
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.filter-news a:hover{
+    color: white;
+    background-color: rgb(255 77 0 / 1);
+}
+
+@media screen and (max-width: 600px) {
+    .side-bar{
+        height: auto;
+        overflow: hidden;
+    }
+}

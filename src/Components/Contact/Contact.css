@@ -1,0 +1,107 @@
+.contact-container{
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;
+    height: 68vh;
+    overflow: hidden;
+}
+.form-info{
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    margin: auto;
+    z-index: 2;
+    background-color: white;
+}
+.form-info form input,.form-info form textarea{
+    margin: 10px;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid rgb(255 77 0 / 1);
+    border-radius: 5px;
+}
+.form-info form{
+    padding: 50px;
+}
+.form-info form h3{
+    margin: 15px;
+    margin-top: 25px;
+}
+.form-info form button{
+    margin: 20px 15px;
+    margin-top: 20px;
+    width: 91%;
+    padding: 10px 5px;
+    background-color: rgb(255 77 0 / 1);
+    border: none;
+    font-weight: 600;
+}
+.contact-info{
+    overflow: hidden;
+    margin: auto 0px;
+}
+.contact-details{
+    overflow: hidden;
+    padding: 20px;
+}
+.contact-details i,.contact-details span{
+    margin: 8px;
+    font-weight: 900;
+}
+.buttom-design{
+    background-color: rgb(255 77 0 / 1);
+    grid-column: -1/1;
+    display: flex;
+    justify-content: end;
+}
+.buttom-design i{
+    margin: 50px 20px;
+}
+.buttom-logo{
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+}
+
+@media screen  and (max-width: 1000px){
+    .contact-container{
+        padding: 0px;
+        margin: 50px;
+        grid-template-columns: 73vw;
+        grid-template-rows: auto auto 90px;
+        height: auto;
+    }
+    .form-info{
+        margin-top: 40px;
+        width: 300px;
+        z-index: -1;
+    }
+    .form-info form{
+        padding: 20px;
+    }
+    .buttom-logo{
+        margin-right: 40px;
+        font-size: 13px;
+    }
+    .buttom-design{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .contact-details i,.contact-details span{
+        margin: 3px;
+        font-weight: 500;
+    }
+    .contact-info{
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contact-container{
+        margin: 0px;
+        grid-template-columns: 100vw;
+    }
+}

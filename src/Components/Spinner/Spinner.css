@@ -1,0 +1,9 @@
+.spinner{
+    text-align: center;
+}
+.spinner-container{
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
